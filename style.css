@@ -1,84 +1,54 @@
-*{
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
- 
-body{
     display: flex;
-    align-items: center;
     justify-content: center;
-    min-height:100vh;
-   }
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
 
-    
-section{
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    flex-direction: column;
-    padding: 25px 45px;
-    background: #f9f9fd;
-    width: 500px;
+.login-container {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
- 
-section h2{
- color: #101010;
- font-size: 1.5rem;
- margin: 2rem;
+
+h2 {
+    text-align: center;
 }
- 
-section form{
-    display: flex;
-    flex-direction: column;
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
     width: 100%;
-}
- 
-form label{
-    color: #090909;
-    font-size: 17px;
-    margin-bottom: 4px;
-}
- 
-form input{
-    padding: 15px;
-    outline: none;
-    border: 0;
-    margin-bottom: 20px;
-    font-size: 15px;
-    transition: all 0,5s;
-}
- 
-form input:focus{
-    border-radius: 16px;
-}
- 
-form textarea{
     padding: 10px;
-    outline: none;
-    border: 0;
-    font-size: 15px;
-    margin-bottom: 30px;
-    transition: all 0.5s;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
- 
-form textarea:focus{
-  border: 16px;
-}
- 
-form button{
-    padding: 15px;
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
-    background: transparent;
-    border: 2px solid #f5f5f5;
-    transition: all 1s;
-    margin-bottom: 29px;
 }
- 
-form button:hover{
- background: #f5f5f5;
- color: #101026;
- border-radius: 16px; 
- }
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
