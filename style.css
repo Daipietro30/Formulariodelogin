@@ -1,9 +1,10 @@
-*{
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+    background-color: #b0a6a6;
 }
+<<<<<<< HEAD
   
 body{
     display: flex;
@@ -57,3 +58,59 @@ body{
   button:hover {
     background-color: #0980f7;
   }
+=======
+
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 35px;
+    color: rgb(204, 60, 23);
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: center;
+    width: 50px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 50%;
+    height: 10px;
+    padding: 10px;
+    border: 1px solid #c59999;
+    border-radius: 5px;
+    text-align: block;
+    display: flex;
+    color: blueviolet;
+}
+
+button {
+    width: 40%;
+    padding: 10px;
+    background-color: #f2f6fa;
+    color: #060606;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a96b6b;
+}
+>>>>>>> 38a1be259160d7ff03213b2912261ebfcdd41592
