@@ -1,30 +1,24 @@
-<!DOCTYP<E html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
-    <link rel="stylesheet" href="estilo.css">
+    <title>Formulário de Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="login-container" 
-    >
-        <h2>Formário de Login</h2>
-        <form action="#">
+    <div class="login-container">
+        <h2>Formulário de Login</h2>
+        <form action="#" method="post">
             <div class="form-group">
-                <label for="username">E-Mail:</label>
-                <br>
-                <input type="text" id="e-mail" name="e-mail" required>
+               <label for="email" >E-mail:</label>
+               <input type="email" id="email" name="email" required>
             </div>
             <div class="form-group">
                 <label for="password">Senha:</label>
-                <br>
                 <input type="password" id="password" name="password" required>
             </div>
-            <br>
-            <button type="submit">Fazer Login</button>
-            <button type="submit">Cancelar</button>
+            <button type="submit">Enviar</button>
         </form>
     </div>
-</body>
 </html>
