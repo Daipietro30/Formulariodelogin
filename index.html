@@ -7,15 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
+    <div class="login-container">
         <h2>Formulário de Login</h2>
-        <form action="" method="post"></form>
-        <label>E-mail:</label>
-        <input type="text" nome="E-mail">
-        <label>Senha:</label>
-        <input type="text" nome="Senha">
-        <button type="submit" nome="Efetuar Login">Efetuar Login</button>
-        <button type="submit" nome="Cancelar">Cancelar</button>
-    </section>
+        <br>
+        <form action="/login" method="post">
+            <div class="form-group">
+                <label for="username">E-mail</label>
+                <input type="text" id="e-mail" name="e-mail" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" id="senha" name="Senha" required>
+            </div>
+            <br>
+            <button type="submit">Efetuar Login</button>
+            <button type="submit">Cancelar</button>
+        </form>
+    </div>
 </body>
 </html>
